@@ -227,3 +227,13 @@ nav>ul li a {
     display: block;
     margin-bottom: 16px;
 }
+/* Responsive */
+@media(max-width:1300px){
+    .cards{
+        display: block;
+    }
+    .about-content{
+        display: block;
+        margin-bottom: 12px;
+    }
+}
