@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Shared */
+.font-1 {
+    font-family: "Cinzel", serif;
+}
+
+.font-2 {
+    font-family: "Inter", sans-serif;
+}
+
+/* header CSS */
+.container {
+    width: 1320px;
+    height: 572px;
+    text-align: center;
+}
+
+.containers {
+    margin: 120px auto;
+    width: 1320px;
+    height: 572px;
+    background-image: url(./assets/home/chef-service.jpg);
+}
+
+nav {
+    background: rgba(21, 21, 21, 0.5);
+}
+
+nav ul {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul .logo h6 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 43px;
+
+}
+
+nav ul .logo p {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu .menu-item li a {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    text-transform: uppercase;
+
+}
+
+.menu ul li a:hover {
+    color: rgb(238, 255, 37);
+}
+
+.menu .menu-item li>i {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    padding: 18px 20px;
+    border-radius: 50%;
+}
+
+/* Header End */
+/* Order Section */
+.order-title {
+    text-align: center;
+}
+
+.order-title,
+.our-menu p {
+    color: rgb(217, 153, 4);
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 48px 0;
+}
+
+.order-title,
+.our-menu h1 {
+    border-top: 2px solid rgb(232, 232, 232);
+    border-bottom: 2px solid rgb(232, 232, 232);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    display: inline;
+    padding: 10px;
+}
+
+.order-section {
+    margin-top: 48px;
+}
+
+.order-section img {
+    margin-right: 20px;
+    max-width: 100%;
+}
+
+/* Bistro Boss */
+.containers .bistro-section {
+    width: 1096px;
+    height: 333px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bistro-section h1 {
+    font-family: "Cinzel", serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 060;
+}
+
+.bistro-section p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Other Menu */
+.other-menu-section {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px 0;
+
+}
+
+.other-menu-content {
+    width: 648px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.other-menu-img {
+    width: 118px;
+    height: 104px;
+}
+
+.other-menu-img img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0px 200px 200px 200px;
+    background: rgb(217, 217, 217);
+
+}
+
+.other-menu-section h6 {
+    font-family: 'Cinzel';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.other-menu-title p {
+    color: rgb(115, 115, 115);
+    margin-top: -5px;
+    font-size: 16px;
+}
+
+/* Contact */
+.contact-section {
+    background-color: black;
+    color: white;
+    padding: 95px 336px;
+    text-align: center;
+}
+
+.contact h1 span {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 59px;
+    text-align: center;
+}
+
+/* CHEF RECOMMENDS */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.card {
+    width: 424px;
+    height: 541px;
+    background-color: rgb(243, 243, 243);
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 500px;
+    margin-bottom: 35px;
+}
+
+.card h6 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 44px;
+}
+
+.buton {
+    text-align: center;
+    max-width: 196px;
+    margin: 20px auto 0;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-bottom: 3px solid rgb(187, 133, 6);
+    border-radius: 8px;
+    background: rgb(232, 232, 232);
+    color: rgb(187, 133, 6);
+}
+
+.buton:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+/* check-it-menu */
+.check-it-menu {
+    background-image: url(./assets/home/featured.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 848px;
+    margin-top: 250px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.check-it-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.check-it-section img {
+    max-width: 600px;
+    max-height: 400px;
+    margin: 50px;
+}
+
+.check-it-title {
+    width: 606px;
+}
+/* testimomial Section */
+.testimonial-section,.testimonial{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.testimonial-section h2{
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+}
+.testimonial-section a{
+    color: 
+    rgb(205, 144, 3);
+    font-size: 32px;
+    font-weight: 500px;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+
+}
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-content h6{
+    font-size: 32px;
+    font-weight: 500;
+}
+.footer-content p{
+    font-size: 20px;
+    font-weight: 500px;
+}
+.footer-content a {
+    padding: 0 20px;
+}
+.footer-title{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin:10px 0;
+}
